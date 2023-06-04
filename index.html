@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Porfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!--MENU ENCABEZADO-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Josué</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+
+            </div>
+        </header>
+    </div>
+
+    <!--SECCION INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="josue.jpg.jpg" alt="">
+            </div>
+            <h1>JOSUE GONZALEZ</h1>
+            <h2>Programador Web Full Stack</h2>
+            <div class="redes">
+                <a href="https://www.instagram.com/desarrollowebjg/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/josueexequiel12" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="josu14#6902" target="_blank"><i class="fa-brands fa-discord"></i></a>
+                <a href="https://www.linkedin.com/in/josue-exequiel-gonzalez-704657129/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/josue1420" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>SOBRE MI</h2>
+            <p><span>Hola, Soy Josue Gonzalez</span> Desarrollador web Full Stack, interesado en el 
+                mundo de la tecnologia.
+            </p>
+            <div class="fila">
+                <!--DATOS PERSONALES-->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaño</strong>
+                            26-11-1995
+                        </li>
+                        <li>
+                            <strong>Telefono</strong>
+                            11-5053-4963
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            josueexequiel12@gmail.com
+                        </li>
+                        <li>
+                            <strong>Direccion</strong>
+                            Juan Pujol 4020 (Los Polvorines)
+                        </li>
+                        <li>
+                            <strong>Ocupacion</strong>
+                            <span>Desarrador Web Full Stack</span>
+                        </li>
+                    </ul>
+
+                </div>
+                <!--INTERESES-->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa solid fa-palette"></i>
+                            <span>ARTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa solid fa-dumbbell"></i>
+                            <span>CROSSFIT</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa solid fa-dog"></i>
+                            <span>PERROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <button>
+                <a href="Curriculum Vitae CV Profesional (1).pdf" target="_blank">Desacargar CV</a> <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+    <!--SECCIOn SKILLS-->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--TECHNUCAL SKILL-->
+                <div class="col">
+                    <h3>Techincal Skills</h3>
+                    <div class="skill">
+                        <span>Html & Css</span>
+                        <div class="barra-skill">
+                            <div class="progreso htmlcss">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso  javascript">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Angular</span>
+                        <div class="barra-skill">
+                            <div class="progreso angular">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Git & Github</span>
+                        <div class="barra-skill">
+                            <div class="progreso gitgithub">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SQLife</span>
+                        <div class="barra-skill">
+                            <div class="progreso sql">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--PROFESIONAL SKILLS-->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso comunicacion">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso trabajoenequipo ">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso creatividad">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso dedicacion">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--PORTAFOLIO-->
+    <section id="portafolio" class="portafolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="a.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Box Ares</h3>
+                        <p>Diseño desde cero utilizando HTML, CSS y JavaScript, completamente adaptable a diferentes dispositivos. Puedes visualizarlo en el siguiente enlace que se encuentra abajo o revisar su código en GitHub.</p>
+                        <div class="margin">
+                        <a href="https://josue1420.github.io/Gim-box/" target="_blank"><i class="fa-solid fa-link"></i></a>
+                        <a href="https://github.com/josue1420/Gim-box" target="_blank"><i class="fa-brands fa-github-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="p.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Carrito de Compra (Tienda Zoe)</h3>
+                        <p>Diseño desde cero utilizando HTML, CSS y JavaScript, completamente adaptable a diferentes dispositivos. Puedes visualizarlo en el siguiente enlace que se encuentra abajo o revisar su código en GitHub.</p>
+                        <div class="margin">
+                            <a href="https://josue1420.github.io/carrito-compra/" target="_blank"><i class="fa-solid fa-link"></i></a>
+                            <a href="https://github.com/josue1420/carrito-compra" target="_blank"><i class="fa-brands fa-github-alt"></i></a>
+                            </div>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="c.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Krusty Burger </h3>
+                        <p>Realizo un diseño desde cero utilizando HTML, CSS y JavaScript para crear un sitio web completamente responsive. El diseño incluye un menú desplegable y horarios, así como un mapa interactivo. Puedes visualizar el sitio completo en el siguiente enlace que se encuentra abajo o revisar el código fuente en mi repositorio de GitHub.</p>
+                        <div class="margin">
+                            <a href="https://josue1420.github.io/ckrusty/" target="_blank"><i class="fa-solid fa-link"></i></a>
+                            <a href="https://github.com/josue1420/ckrusty" target="_blank"><i class="fa-brands fa-github-alt"></i></a>
+                            </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!--CONTACTO-->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!--FORMULARIO-->
+               
+                <div class="col">
+                    <!--<form id="form" class="form" action="https://formspree.io/f/xrgvwpez" method="POST">-->
+                    <input name="name" type="name" placeholder="Nombre">
+                    <input  name="number" type="number" placeholder="Numero de Telefono">
+                    <input name="email" type="email" placeholder="Correo Electronico">
+                    <input name="text" type="text" placeholder="Tema">
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Mensaje.." class="input-full"></textarea>
+                    <button type="submit">
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                   
+                </div>
+                
+                <!--MAPA-->
+                <div class="col">
+                   <img src="bot.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--FOOTER-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.instagram.com/desarrollowebjg/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/josueexequiel12" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="josu14#6902" target="_blank"><i class="fa-brands fa-discord"></i></a>
+            <a href="https://www.linkedin.com/in/josue-exequiel-gonzalez-704657129/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/josue1420" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <p class="derechos">Derechos Reservados-@Desarrollo-J-G-2023</p>
+    </footer>
+  <script src="index.js"></script>
+</body>
+</html>
